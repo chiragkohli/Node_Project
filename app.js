@@ -5,7 +5,7 @@ const PORT = 3010;
 
 const app = express();
 
-app.use('/',(req, res, next) => {
+app.get('/',(req, res, next) => {
     console.log("Enterd", req);
     res.send(`<html><body><h1>Hello! from Node JS</h1></body></html>`);
 });
