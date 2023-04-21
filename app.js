@@ -4,7 +4,7 @@ const PORT = 3010;
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/html'});
-    res.write('<h1>Hello, world!</h1>');
+    res.write('<h1>Hello, world! from NODE SERVER</h1>');
     res.end();
 });
 
