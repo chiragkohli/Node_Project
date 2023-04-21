@@ -7,8 +7,5 @@
     "start": "node app.js"
   },
   "author": "Chirag Kohli",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "license": "ISC"
 }
